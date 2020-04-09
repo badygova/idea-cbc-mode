@@ -154,7 +154,6 @@ public class IdeaCipher extends BlockCipher {
     /**
      * Обратное число (Евклидов алгоритм)
      */
-    @SuppressWarnings("SuspiciousNameCombination")
     private static int mulInv(int x) {
         if (x <= 1) {
             return x;

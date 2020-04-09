@@ -14,7 +14,7 @@ public class ECB extends OperationMode {
     }
 
     @Override
-    protected void crypt(byte[] data, int pos) {
+    public void crypt(byte[] data, int pos) {
         idea.crypt(data, pos);
     }
 }
